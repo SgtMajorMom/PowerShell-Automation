@@ -42,4 +42,17 @@ I write scripts that:
 ## 🚀 Getting Started
 
 Clone the repository:
+git clone https://github.com/SgtMajorMom/PowerShell-Automation
+
+Run scripts from the `/scripts` directory.
+
+---
+
+## 📌 Coming Soon
+- Automated access reviews  
+- Log collection + formatting  
+- Okta user lifecycle automation  
+- Google Workspace admin scripts  
+- Device compliance reporting  
+
 
