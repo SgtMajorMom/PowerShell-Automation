@@ -47,3 +47,34 @@ Useful for onboarding/offboarding, access reviews, and IAM tasks.
 2. Open PowerShell  
 3. Navigate to the `scripts/` folder  
 4. Run a script using:  
+   .\ScriptName.ps1
+5. If needed, allow script execution temporarily:
+   Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
+   
+---
+
+## 🧠 What I’m Learning Through These Scripts
+- PowerShell fundamentals  
+- Working with objects, properties, and pipelines  
+- Querying Active Directory  
+- Reading and filtering event logs  
+- Building repeatable workflows  
+- Writing clear, structured documentation  
+- Strengthening IT + security troubleshooting skills  
+
+---
+
+## 🛠️ Roadmap (What’s Coming Next)
+- Email header parsing basics  
+- Log collection helper script  
+- Simple onboarding/offboarding automation  
+- Security event filtering by username or time range  
+- SaaS admin automation (Google Workspace, M365, Okta)  
+
+---
+
+## 📬 Feedback & Suggestions
+If you have ideas, improvements, or suggestions, feel free to open an issue or reach out.  
+This repository is part of my ongoing learning journey — and it will continue to grow as I do.
+
+  
