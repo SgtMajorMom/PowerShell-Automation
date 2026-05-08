@@ -10,7 +10,7 @@ My goals with this repo are to:
 - learn PowerShell fundamentals through hands‑on practice  
 - automate small, realistic tasks I’ve handled in IT Support and IAM  
 - explore basic security concepts like event logs and access reviews  
-- build confidence writing scripts that solve everyday operational problems  
+- build confidence writing scripts that support IT + security workflows  
 - document my learning process in a clear, structured way  
 
 This is a **learning-focused** repository.  
@@ -53,9 +53,6 @@ Useful for onboarding/offboarding, access reviews, and identity workflows.
    
 ---
 
-
----
-
 ## 🧠 What I’m Learning Through These Scripts
 - PowerShell basics (objects, pipelines, filtering)  
 - Querying Active Directory  
@@ -68,6 +65,8 @@ Useful for onboarding/offboarding, access reviews, and identity workflows.
 ---
 
 ## 🛠️ Roadmap (What’s Coming Next)
+These are areas I plan to explore as my skills grow:
+
 - Basic email header parsing  
 - Simple log collection helper  
 - Onboarding/offboarding workflow examples  
