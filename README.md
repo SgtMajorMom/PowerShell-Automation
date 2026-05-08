@@ -1,7 +1,9 @@
 # PowerShell Automation
 
-A collection of practical PowerShell scripts used across IT Support, Identity, SaaS administration, and security workflows.  
-Each script is documented with purpose, usage, parameters, and example output.
+This repository contains PowerShell scripts I’m building as part of my learning journey in IT automation, identity workflows, and security operations. These scripts reflect how I practice automation, strengthen my troubleshooting skills, and build repeatable processes that support IT Support, IAM, and security-focused tasks.
+
+Each script is beginner-friendly, practical, and aligned with the types of work I’ve done in IT Support, SaaS administration, endpoint security, and identity management.
+
 
 ---
 
