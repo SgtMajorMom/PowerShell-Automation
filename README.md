@@ -1,60 +1,49 @@
-# PowerShell Automation
+# PowerShell Automation  
+A collection of beginner‑friendly PowerShell scripts I’m building as part of my learning journey in IT automation, identity workflows, and security operations.
 
-This repository contains PowerShell scripts I’m building as part of my learning journey in IT automation, identity workflows, and security operations. These scripts reflect how I practice automation, strengthen my troubleshooting skills, and build repeatable processes that support IT Support, IAM, and security-focused tasks.
-
-Each script is beginner-friendly, practical, and aligned with the types of work I’ve done in IT Support, SaaS administration, endpoint security, and identity management.
-
+These scripts reflect how I practice automation, strengthen troubleshooting skills, and build repeatable processes that support IT Support, IAM, SaaS administration, and security‑focused tasks. Each script is simple, practical, and aligned with the types of work I’ve done in real environments.
 
 ---
 
-## 📁 Repository Structure
+## 📌 Purpose of This Repository
+This repo serves as a place to:
+- learn and practice PowerShell fundamentals  
+- automate common IT Support and IAM tasks  
+- explore basic security and event log analysis  
+- build confidence with scripting and documentation  
+- create repeatable workflows that support IT + security operations  
 
-### **/scripts**
-Core PowerShell scripts for:
-- User onboarding/offboarding  
-- Mailbox permissions  
-- Device inventory  
-- Log collection  
-- Okta / Google Workspace automation  
-- Security workflows  
-
-### **/docs**
-Documentation for:
-- Script usage  
-- Parameters  
-- Troubleshooting  
-- Output examples  
-- Notes for future improvements  
-
-### **/examples**
-Sample output, JSON logs, CSV exports, and reference files used by scripts.
+This is a **learning-focused** repository — not production automation.  
+Everything here is part of my growth into security‑minded IT work.
 
 ---
 
-## 🧩 Script Philosophy
-I write scripts that:
-- solve real operational problems  
-- reduce repetitive work  
-- improve consistency  
-- support identity and SaaS administration  
-- enhance security workflows  
+## 📂 Scripts Included
+
+### **1. Get‑InstalledApps.ps1**
+Lists installed applications on the local machine.  
+Useful for troubleshooting, software audits, and basic security reviews.
+
+### **2. Get‑LocalAdmins.ps1**
+Displays members of the local Administrators group.  
+Helps with access reviews and endpoint security hygiene.
+
+### **3. Get‑LockedOutUsers.ps1**
+Shows Active Directory users who are currently locked out.  
+Great for identity troubleshooting and understanding account workflows.
+
+### **4. Get‑EventLogSummary.ps1**
+Summarizes recent successful and failed logons (4624/4625).  
+A beginner‑friendly introduction to event log analysis and security monitoring.
+
+### **5. Export‑UserInfo.ps1**
+Exports basic AD user information (groups, last logon, status) to CSV.  
+Useful for onboarding/offboarding, access reviews, and IAM tasks.
 
 ---
 
-## 🚀 Getting Started
-
-Clone the repository:
-git clone https://github.com/SgtMajorMom/PowerShell-Automation
-
-Run scripts from the `/scripts` directory.
-
----
-
-## 📌 Coming Soon
-- Automated access reviews  
-- Log collection + formatting  
-- Okta user lifecycle automation  
-- Google Workspace admin scripts  
-- Device compliance reporting  
-
-
+## ▶️ How to Run These Scripts
+1. Clone or download this repository  
+2. Open PowerShell  
+3. Navigate to the `scripts/` folder  
+4. Run a script using:  
